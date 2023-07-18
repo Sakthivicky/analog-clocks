@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(49, 44, 44)
+}
+
+.clock {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    border: 5px solid red;
+    position: absolute;
+}
+
+#second {
+    position: absolute;
+    height: 130px;
+    width: 2px;
+    left: 149px;
+    background-color: rgb(32, 221, 202);
+    bottom: 150px;
+    transform-origin: 0 100%;
+}
+
+#minute {
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    left: 149px;
+    background-color: rgba(221, 31, 242, 0.581);
+    bottom: 150px;
+    transform-origin: 0 100%;
+}
+
+#hour {
+    position: absolute;
+    height: 80px;
+    width: 4px;
+    left: 148px;
+    background-color: rgb(240, 10, 140);
+    bottom: 150px;
+    transform-origin: 0 100%;
+}
